@@ -4,7 +4,7 @@ import sqlite3
 from telebot import types
 
 
-bot = telebot.TeleBot(token='8002715394:AAEsBeVVFLVKird9hFFKDHm5Wtr7aw0Oz2I')
+bot = telebot.TeleBot(token='')
 name = None
 @bot.message_handler(commands=['start'])
 def start(message):
